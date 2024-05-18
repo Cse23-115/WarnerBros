@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warner Bros. </title>
+    <link rel="stylesheet" href="WB.css">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+
+    <header>
+           <i><img src="logo.png" alt="Logo" class="logo"></i>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="TV-Series.html">TV-Series</a></li>
+            <li><a href="Games.html">Games</a></li>
+            <li><a href="AboutUs.html">About us</a></li>
+            <li class="search-container">
+                <form action="/search.html" method="get">
+                    <input type="text" placeholder="Search..." name="search">
+                    <button type="submit">Search</button>
+                </form>
+            </li>
+        </ul>
+
+        <a href="#" class="btn">Sign In</a>
+    </header>
+
+    <!--home-->
+    <section class="home swiper" id="home">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide container">
+                <img src="GA1.jpg" alt="">
+                <div class="home-text">
+                    <h1>Mortal Kombat <br>OnSlaught</h1>
+                    <a href="" class="btn">Buy Now</a>
+                    <a href="" class="play">
+                        <i class='bx bx-play'></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="swiper-slide container">
+                <img src="GA2.jpg" alt="">
+                <div class="home-text">
+                    <h1>Harry Potter<br>Magic Awakened</h1>
+                    <a href="" class="btn">Buy Now</a>
+                    <a href="" class="play">
+                        <i class='bx bx-play'></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="swiper-slide container">
+                <img src="GA3.jpg" alt="">
+                <div class="home-text">
+                    <h1>Super Mario<br>Volume 1</h1>
+                    <a href="" class="btn">Buy Now</a>
+                    <a href="" class="play">
+                        <i class='bx bx-play'></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="swiper-slide container">
+                <img src="GA4.jpg" alt="">
+                <div class="home-text">
+                    <h1>The Hunger Games <br>Mocking Jay</h1> <br>Volume 1</h1>
+                    <a href="" class="btn">Book Now</a>
+                    <a href="" class="play">
+                        <i class='bx bx-play'></i>
+                    </a>
+                </div>
+            </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+
+    </section>
+
+    <!-- New-releases -->
+    <section class="New-releases" id="New-releases">
+        <h2 class="heading">New-releases</h2>
+        <!-- New-releases container -->
+        <div class="New-releases-container swiper">
+            <div class="swiper-wrapper">
+                <!-- box-1 -->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="GA5.jpg" alt="">
+                    </div>
+                    <H3>SHOOTER</H3>
+                </div>
+                <!-- box-2 -->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="G6.jpg" alt="">
+                    </div>
+                    <H3>Ender's Game</H3>
+                </div>
+                <!-- box-3 -->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="G7.jpg" alt="">
+                    </div>
+                    <H3>Destruction <br>All Stars</H3>
+                </div>
+                <!-- box-4 -->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="G8.jpg" alt="">
+                    </div>
+                    <H3>Halo <br>Infinite</H3>
+                </div>
+                <!-- box-5 -->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="G9.jpg" alt="">
+                    </div>
+                    <H3>XDEFIANT</H3>
+                </div>
+                <!-- box-6 -->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="G10.jpg" alt="">
+                    </div>
+                    <H3>Halo 2</H3>
+                </div>
+                <!-- box-7 -->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="G11.jpg" alt="">
+                    </div>
+                    <H3>Fallout <br> New Vegas</H3>
+                </div>
+                <!-- box-8 -->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="G12.jpg" alt="">
+                    </div>
+                    <H3>Call of Duty</H3>
+                </div>
+                <!-- box-9 -->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="G13.jpg" alt="">
+                    </div>
+                    <H3>Assasins <br>Creed 3</H3>
+                </div>
+                <!-- box-10 -->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="GA4.jpg" alt="">
+                    </div>
+                    <H3>Moking Jay</H3>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter" id="newsletter">
+        <h2>Subscribe To Get <br>Newsletter</h2>
+        <form action="">
+            <input type="email" class="email" placeholder="Enter Email" required>
+            <input type="submit" value="Subscribe" class="btn">
+        </form>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+       <i><img src="logo.png" alt="Logo" class="logo"></i>
+        <div class="social">
+            <a href=""> <i class='bx bxl-facebook-circle'></i></a>
+            <a href=""> <i class='bx bxl-twitter' ></i></a>
+            <a href=""> <i class='bx bxl-instagram-alt' ></i></a>
+            <a href=""><i class='bx bxl-linkedin-square' ></i></a>
+        </div>
+
+    </section>
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>&#169; WarnerBros All Right Reserved</p>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="WB.js"></script>
+
+
+</body>
+</html>
